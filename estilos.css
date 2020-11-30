@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(140, 140, 240);
+    font-family: 'Nerko One', cursive;
+}
+body li #index{
+    background-color: rgb(0, 0, 92);
+    color: rgb(235, 124, 60);
+}
+body li #formacion{
+    background-color: rgb(0, 0, 92);
+    color: rgb(235, 124, 60);
+}
+body li #idiomas{
+    background-color: rgb(0, 0, 92);
+    color: rgb(235, 124, 60);
+}
+/*Menu*/
+nav{
+    position: sticky;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 70px;
+    top: 10px;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    padding: 0;
+}
+nav li{
+    list-style: none;
+    display: inline;
+}
+nav a{
+    background-color: rgb(69, 13, 199);
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: .5em 1em;
+}
+nav a:hover{
+    background-color: rgb(0, 0, 92);
+    color: rgb(235, 124, 60);
+    border: 1px solid;
+    padding: 10px;
+    box-shadow:0px 5px rgb(219, 143, 98);
+}
+/*Datos Personales*/
+div{
+    display: flex;
+    border: 2px solid blue;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+    justify-content: space-around;
+    align-items: center;
+}
+div img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+div li{
+    list-style: none;
+}
+/*Contacte(posicion fija)*/
+aside{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border: solid 1px blue;
+    left: 10px;
+    top: 170px;
+    align-items: center;
+    border-radius: 5px;
+}
+aside img{
+    filter: grayscale(100%);
+    opacity: 0.75;
+}
+aside img:hover{
+    filter: none;
+}
+/*Formacion e Idiomas*/
+article{
+    margin-right: 250px;
+    margin-left: 250px;
+}
+li, p{
+    font-size: 17px;
+}
+.one {
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+}
+.two {
+    list-style: circle;
+}
+hr{
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+
+}
+/*Pie de pagina*/
+footer{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+footer img{
+    width: 200px;
+    height: 75px;
+}
+
+
